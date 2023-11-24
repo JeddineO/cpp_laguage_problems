@@ -10,7 +10,7 @@ Cube::Cube(float x, float y, float z, float cote) : Forme3D(x, y, z), cote(cote)
 
 void Cube::afficher()
 {
-    cout << "Cube : Cote : " << this->cote << " - Centre : (" << this->x << " , " << this->y << " , " << this->z << ")" << endl;
+    cout << "Cube : Cote : " << this->cote << " , Centre : (" << this->x << " , " << this->y << " , " << this->z << ")" << endl;
 }
 
 double Cube::surface()
