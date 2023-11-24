@@ -1,3 +1,6 @@
+#ifndef CERCLE_H
+#define CERCLE_H
+
 #include "../Form2D/Forme2D.cpp"
 
 class Cercle : public Forme2D
@@ -10,3 +13,4 @@ public:
     void afficher();
     double surface();
 };
+#endif

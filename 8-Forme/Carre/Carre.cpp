@@ -2,7 +2,8 @@
 
 using namespace std;
 
-Carre::Carre(float cote) : Forme2D(),cote(cote){};
+Carre::Carre(float cote) : Forme2D(), cote(cote){};
+Carre::Carre(float x, float y, float cote) : Forme2D(x, y), cote(cote){};
 
 void Carre::afficher()
 {

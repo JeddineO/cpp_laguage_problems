@@ -11,7 +11,7 @@ private:
 
 public:
     Rectangle(float, float);
-    // Rectangle(float, float, float, float);
+    Rectangle(float, float, float, float);
     void afficher();
     double surface();
 };

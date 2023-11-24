@@ -1,5 +1,5 @@
 #ifndef CARRE_H
-#define CAREE_H
+#define CARRE_H
 
 #include "../Form2D/Forme2D.cpp"
 
@@ -10,6 +10,7 @@ protected:
 
 public:
     Carre(float);
+    Carre(float, float, float);
     void afficher();
     double surface();
 };
