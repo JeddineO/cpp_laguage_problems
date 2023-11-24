@@ -1,4 +1,7 @@
-#include "Forme3D.h"
+#ifndef CUBE_H
+#define CUBE_H
+
+#include "Forme3D.cpp"
 
 class Cube : public Forme3D
 {
@@ -12,3 +15,5 @@ public:
     double surface();
     double volume();
 };
+
+#endif
