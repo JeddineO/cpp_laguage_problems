@@ -1,3 +1,6 @@
+#ifndef RECTANGLE_H
+#define RECTANGLE_H
+
 #include "Forme2D.cpp"
 
 class Rectangle : public Forme2D
@@ -12,3 +15,5 @@ public:
     void afficher();
     double surface();
 };
+
+#endif

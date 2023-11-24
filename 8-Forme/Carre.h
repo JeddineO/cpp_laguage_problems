@@ -1,3 +1,6 @@
+#ifndef CARRE_H
+#define CAREE_H
+
 #include "Forme2D.cpp"
 
 class Carre : public Forme2D
@@ -10,3 +13,4 @@ public:
     void afficher();
     double surface();
 };
+#endif
