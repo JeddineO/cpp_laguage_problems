@@ -1,7 +1,7 @@
-#include "Carre.cpp"
-#include "Rectangle.cpp"
-#include "Cercle.cpp"
-#include "Cube.cpp"
+#include "Carre/Carre.cpp"
+#include "Rectangle/Rectangle.cpp"
+#include "Cercle/Cercle.cpp"
+#include "Cube/Cube.cpp"
 
 int main()
 {
