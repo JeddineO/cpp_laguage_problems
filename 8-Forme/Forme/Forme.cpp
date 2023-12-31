@@ -1,3 +1,5 @@
-#include "Forme.h"
+#include <iostream>
 
-Forme::Forme(float x, float y) : x(x), y(y) {}
+#include "Forme.hpp"
+
+Forme::Forme(float x = 0, float y = 0) : x(x), y(y) {}

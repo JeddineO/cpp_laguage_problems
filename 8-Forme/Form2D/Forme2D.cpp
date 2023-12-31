@@ -1,5 +1,5 @@
-#include "Forme2D.h"
+#include <iostream>
 
-Forme2D::Forme2D(float x, float y) : Forme(x, y)
-{
-}
+#include "Forme2D.hpp"
+
+Forme2D::Forme2D(float x = 0, float y = 0) : Forme(x, y) {}

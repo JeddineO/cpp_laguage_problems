@@ -1,7 +1,7 @@
 #ifndef CERCLE_H
 #define CERCLE_H
 
-#include "../Form2D/Forme2D.cpp"
+#include "../Form2D/Forme2D.hpp"
 
 class Cercle : public Forme2D
 {

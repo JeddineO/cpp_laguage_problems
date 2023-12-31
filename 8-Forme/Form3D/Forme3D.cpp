@@ -2,4 +2,4 @@
 
 #include "Forme3D.h"
 
-Forme3D::Forme3D(float x, float y, float z) : Forme(x, y), z(z) {}
+Forme3D::Forme3D(float x = 0, float y = 0, float z = 0) : Forme(x, y), z(z) {}

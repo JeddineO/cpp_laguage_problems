@@ -1,7 +1,7 @@
 #ifndef CUBE_H
 #define CUBE_H
 
-#include "../Form3D/Forme3D.cpp"
+#include "../Form3D/Forme3D.h"
 
 class Cube : public Forme3D
 {

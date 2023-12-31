@@ -1,5 +1,5 @@
-#ifndef CARRE_H
-#define CARRE_H
+#ifndef CARRE_HPP
+#define CARRE_HPP
 
 #include "../Form2D/Forme2D.cpp"
 

@@ -1,6 +1,5 @@
-#ifndef FORME_H
-#define FORME_H
-#include <iostream>
+#ifndef FORME_HPP
+#define FORME_HPP
 
 class Forme
 {
@@ -10,8 +9,9 @@ protected:
     float y;
 
 public:
-    Forme(float x = 0, float y = 0);
+    Forme(float, float);
     virtual void afficher() = 0;
     virtual double surface() = 0;
 };
+
 #endif
